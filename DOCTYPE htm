@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Видеоредактор</title>
+    <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Видеоредактор</h1>
+    <video
+        id="videoPlayer"
+        class="video-js vjs-default-skin"
+        controls
+        preload="auto"
+        width="640"
+        height="360"
+    >
+        <source src="sample.mp4" type="video/mp4">
+    </video>
+    <div>
+        <button onclick="playVideo()">Воспроизвести</button>
+        <button onclick="pauseVideo()">Пауза</button>
+        <button onclick="cutVideo()">Обрезать</button>
+        <button onclick="downloadVideo()">Скачать видео</button>
+    </div>
+    <script src="https://vjs.zencdn.net/7.14.3/video.js"></script>
+    <script>
+        const videoPlayer = videojs('videoPlayer');
+
+        function playVideo() {
+            videoPlayer.play();
+        }
+
+        function pauseVideo() {
+            videoPlayer.pause();
+        }
+
+        function cutVideo() {
+            // Добавьте здесь код для обрезки видео
+        }
+
+        function downloadVideo() {
+            // Добавьте здесь код для скачивания видео
+        }
+    </script>
+</body>
+</html>
