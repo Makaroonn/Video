@@ -26,20 +26,6 @@
     <script>
         const videoPlayer = videojs('videoPlayer');
 
-        function playVideo() {
-            videoPlayer.play();
-        }
-
-        function pauseVideo() {
-            videoPlayer.pause();
-        }
-
-        function cutVideo() {
-            // Добавьте здесь код для обрезки видео
-        }
-
-        function downloadVideo() {
-            // Добавьте здесь код для скачивания видео
         }
     </script>
 </body>
