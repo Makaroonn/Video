@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitnessclub</title>
+</head>
+<body>
+    <header>
+        <h1>Willkommen im Fitnessclub</h1>
+        <p>Hier dreht sich alles um Gesundheit und Fitness.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#über-uns">Über Uns</a></li>
+            <li><a href="#angebote">Unsere Angebote</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="über-uns">
+        <h2>Über Uns</h2>
+        <p>Unser Fitnessclub bietet eine Vielzahl von Trainingsmöglichkeiten, von Cardio-Übungen bis hin zu Krafttraining. Unser erfahrenes Personal steht Ihnen zur Seite, um Ihre Fitnessziele zu erreichen.</p>
+    </section>
+
+    <section id="angebote">
+        <h2>Unsere Angebote</h2>
+        <p>Entdecken Sie unsere vielfältigen Angebote, darunter:</p>
+        <ul>
+            <li>Gruppenfitnesskurse</li>
+            <li>Personal Training</li>
+            <li>Sauna und Wellness</li>
+        </ul>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Sie erreichen uns unter folgender Adresse:</p>
+        <address>
+            Fitnessclub Musterstraße 123<br>
+            12345 Musterstadt<br>
+            Deutschland
+        </address>
+        <p>Kontaktieren Sie uns unter <a href="tel:+49-123-456789">+49 123 456789</a> oder per E-Mail: <a href="mailto:info@fitnessclub.de">info@fitnessclub.de</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fitnessclub. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
