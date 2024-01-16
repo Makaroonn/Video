@@ -22,15 +22,3 @@
         <button onclick="downloadVideo()">Скачать видео</button>    <button onclick="playVideo()">Воспроизвести</button>
         <button onclick="pauseVideo()">Пауза</button>
         <button onclick="cutVideo()">Обрезать</button>
-        <button onclick="downloadVideo()">Скачать видео</button>
-    </div>
-    <script src="https://vjs.zencdn.net/7.14.3/video.js"></script>
-    <script>
-        const videoPlayer = videojs('videoPlayer');
-        }
-    </script>
-</body>
-</html>    <button onclick="playVideo()">Воспроизвести</button>
-        <button onclick="pauseVideo()">Пауза</button>
-        <button onclick="cutVideo()">Обрезать</button>
-        <button onclick="downloadVideo()">Скачать видео</button>
