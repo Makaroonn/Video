@@ -10,15 +10,4 @@
         id="videoPlayer"
         class="video-js vjs-default-skin"
         controls
-        preload="auto"
-        width="640"
-        height="360"
-        <source src="sample.mp4" type="video/mp4">
-    </video>
-    <div>
-        <button onclick="playVideo()">Воспроизвести</button>
-        <button onclick="pauseVideo()">Пауза</button>
-        <button onclick="cutVideo()">Обрезать</button>
-        <button onclick="downloadVideo()">Скачать видео</button>    <button onclick="playVideo()">Воспроизвести</button>
-        <button onclick="pauseVideo()">Пауза</button>
-        <button onclick="cutVideo()">Обрезать</button>
+  
